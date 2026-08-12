@@ -2,6 +2,10 @@
 
 Codex CLI と Claude Code のローカルセッションを、`TODO → IN PROGRESS ⇄ REVIEW → DONE` で確認する小さなボードです。APIキーを登録せず、手元のセッション情報だけを読み取って動作します。
 
+![ai-session-boardの画面イメージ](docs/ai-session-board.png)
+
+この画像は、ダッシュボードの使い方を伝えるための架空・抽象化したタスクのイメージです。実際のセッションデータは含まれていません。
+
 ## 画面
 
 - 4列のステータスボードで、作業中・確認待ち・完了を一覧表示
@@ -19,7 +23,7 @@ Codex CLI と Claude Code のローカルセッションを、`TODO → IN PROGR
 ## セットアップ
 
 ```bash
-git clone https://github.com/OKUMURA-X/ai-session-board.git
+git clone https://github.com/U-chom2/ai-session-board.git
 cd ai-session-board
 npm ci
 npm run install:claude-hooks # Claude Codeを使う場合だけ（任意）
